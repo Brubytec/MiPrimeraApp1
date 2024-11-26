@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/button_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera" />
+
+    <Button
+        android:id="@+id/button_grabadora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grabadora" />
+
+    <Button
+        android:id="@+id/button_imagen_capturada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Imagen Capturada" />
+
+    <Button
+        android:id="@+id/button_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main" />
+</LinearLayout>
